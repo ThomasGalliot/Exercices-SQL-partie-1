@@ -2,44 +2,48 @@
 
 ##Exercice 1
 
-Créer une base de données appelée **CV**.
+Créer une base de données appelée **Compétences**.
 
 ##Exercice 2
 
-Dans la base de données **CV**, créer une table **Langages** comprenant deux champs :
+Dans la base de données **Compétences**, créer une table **Langages** comprenant deux champs :
 - id : type numérique, clé primaire et auto-incrémenté.
 - langage : type alphanumérique.
 
 ##Exercice 3
 
-Supprimer la base **CV**
+Créer une base de données appelée **Colysee** avec l'encodage UTF-8.
 
-##Exercice 1
+##Exercice 4
 
-Créer une base de données appelée **Clients** avec l'encodage UTF-8.
-
-##Exercice 2
-
-Dans la base **Clients** créer 3 champs :
+Dans la base **Colysée**, créer la table **Clients** contenant 5 champs :
 - id, clé primaire, auto-incrémenté
 - nom
 - prénom
-
-##Exercice 3
-
-Supprimer la base de données du premier exercice.
-
+- carte de fidelité
+- reduction
 
 ##Exercice 5
 
-Dans la base de données **CV**, créer une table **Langages** comprenant deux champs :
-- id : type numérique, clé primaire et auto-incrémenté.
-- langage : type alphanumérique.
+Dans la base **Colysée**, créer la table **Salles** avec deux champs :
+- id
+- sièges
 
 ##Exercice 6
 
-Dans la base de données **CV**, ajouter une table
+Dans la base **Colysée**, créer la table **Spectacles** avec les champs :
+- id
+- intitulé
+- artiste
+- genre
+- date
+- heure
+- duree
+- id de la Salles
 
-##Bonus
+##Exercice 7
 
-Tenter de supprimer si elle existe la table 'Clients'.
+Dans la base **Colysée**, créer la table **Réservations** avec les champs :
+- id
+- id du spectacle
+- nombre de sièges reservés
