@@ -2,48 +2,50 @@
 
 ##Exercice 1
 
-Créer une base de données appelée **Compétences**.
+Créer une base de données appelée **competences**.
 
 ##Exercice 2
 
-Dans la base de données **Compétences**, créer une table **Langages** comprenant deux champs :
+Dans la base de données **competences**, créer une table **langages** comprenant deux champs :
 - id : type numérique, clé primaire et auto-incrémenté.
 - langage : type alphanumérique.
 
 ##Exercice 3
 
-Créer une base de données appelée **Colysee** avec l'encodage UTF-8.
+Créer une base de données appelée **colysee** avec l'encodage UTF-8.
 
 ##Exercice 4
 
-Dans la base **Colysée**, créer la table **Clients** contenant 5 champs :
+Dans la base **colysee**, créer la table **clients** contenant 5 champs :
 - id, clé primaire, auto-incrémenté
 - nom
-- prénom
-- carte de fidelité
+- prenom
+- carte_fidelite
 - reduction
 
 ##Exercice 5
 
-Dans la base **Colysée**, créer la table **Salles** avec deux champs :
+Dans la base **colysee**, créer la table **salles** avec deux champs :
 - id
-- sièges
+- nombre_sieges
 
 ##Exercice 6
 
-Dans la base **Colysée**, créer la table **Spectacles** avec les champs :
+Dans la base **colysee**, créer la table **spectacles** avec les champs :
 - id
-- intitulé
+- intitule
 - artiste
+- type
 - genre
 - date
 - heure
 - duree
-- id de la Salles
+- salles_id
 
 ##Exercice 7
 
-Dans la base **Colysée**, créer la table **Réservations** avec les champs :
+Dans la base **colysee**, créer la table **reservations** avec les champs :
 - id
-- id du spectacle
-- nombre de sièges reservés
+- spectacles_id
+- clients_id
+- nombre_billets
