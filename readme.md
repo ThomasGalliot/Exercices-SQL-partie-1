@@ -1,4 +1,4 @@
-#Le SQL
+#SQL - Partie 1
 
 ##Exercice 1
 
