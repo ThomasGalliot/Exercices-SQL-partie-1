@@ -26,13 +26,13 @@ Dans la base **colysee**, créer la table **clients** contenant 5 champs :
 ##Exercice 5
 
 Dans la base **colysee**, créer la table **salles** avec deux champs :
-- id
+- id, clé primaire, auto-incrémenté
 - nombre_sieges
 
 ##Exercice 6
 
 Dans la base **colysee**, créer la table **spectacles** avec les champs :
-- id
+- id, clé primaire, auto-incrémenté
 - intitule
 - artiste
 - type
@@ -45,7 +45,7 @@ Dans la base **colysee**, créer la table **spectacles** avec les champs :
 ##Exercice 7
 
 Dans la base **colysee**, créer la table **reservations** avec les champs :
-- id
+- id, clé primaire, auto-incrémenté
 - spectacles_id
 - clients_id
 - nombre_billets
