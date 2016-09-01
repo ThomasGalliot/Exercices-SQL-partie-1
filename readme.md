@@ -32,7 +32,7 @@ Dans la base **colysee**, créer la table **salles** avec deux champs :
 ##Exercice 6
 
 Dans la base **colysee**, créer la table **spectacles** avec les champs :
-- id, clé primaire, auto-incrémenté
+- id, clé primaire, auto-incrémenté 
 - intitule
 - artiste
 - type
