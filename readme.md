@@ -7,7 +7,7 @@ Créer une base de données **languages**.
 
 ## Exercice 2
 
-Créer une base de données **webDeveloppement** avec l’encodage UTF-8.
+Créer une base de données **webDevelopment** avec l’encodage UTF-8.
 
 ## Exercice 3
 
