@@ -1,4 +1,4 @@
-# SQL - Création et suppression d’une base de données
+# SQL - Création et suppression de bases de données
 
 **Attention : Toutes les commandes que vous taperez devront être conservées dans un fichier .sql**
 
